@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.name {
+    margin: 0px 0px 25px 0px;
+    float: left;
+    width: 10%;
+}
+.name img {
+    width: 50px;
+    height: 50 px;
+    margin-left: 20px;
+}
+
+.tavaradar {
+    color: green;
+    margin-top: -10px;
+}
+
+.tavaradar span {
+    color: silver;
+}
+
+.katal {
+    float: left;
+    width: 10%;
+}
+
+.katal select {
+    margin: 25px 0px 25px 3px;
+    width: 100px;  
+    border-radius: 5px;  
+    background: green;
+    color: white;
+}
+
+.search {
+    float: left;
+    width: 30%;
+}
+
+.search input {
+    margin: 25px 0px 25px 25px;
+    width: 100px;
+    border-radius: 7px;
+    border-color: green;
+    width: 300px;
+}
+
+.icons {
+    margin: 15px 0px 25px 30px;
+    float: left;
+    width: 47%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:chartreuse;
+}
+
+.icons_enter {
+    float: left;
+    width: 25%;
+}
+
+.icons_enter img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.icons_enter figcaption{
+    margin-top: -5px;
+}
+
+.icons_zakaz {
+    float: left;
+    width: 25%;
+}
+
+.icons_zakaz img {
+    width: 25px;
+    height: 25px;
+    margin-left: 7px;
+}
+
+.icons_zakaz figcaption{
+    margin-top: -5px;
+}
+
+.icons_izbr {
+    float: left;
+    width: 25%;
+}
+
+.icons_izbr img {
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+}
+
+.icons_izbr figcaption{
+    margin-top: -5px;
+}
+
+.icons_korz {
+    float: left;
+    width: 25%;
+}
+
+.icons_korz img {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.icons_korz figcaption{
+    margin-top: -5px;
+}
+
+.content img {
+    width:  100%;
+    border-radius: 10px;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 10px 0px 0px 45px;
+}
+
+.footer::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.block-1 {
+    float: left;
+    width: 24%;
+    margin-right: 1%;
+    }
+
+.block-1 img {
+    border:1px solid black;
+  border-radius: 10px;
+  width: 200px;
+  height: 150px;
+}
+
+.block-1 figcaption {
+    margin-left: 50px;
+ }
+
+.block-2{
+    float: left;
+    width: 24%;
+    margin-right: 1%;
+}
+
+.block-2 img {
+    border:1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+.block-2 figcaption {
+    margin-left: 50px;
+ }
+
+.block-3 {
+    float: left;
+    width: 24%;
+    margin-right: 1%;
+}
+
+.block-3 img {
+    border:1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+.block-3 figcaption {
+    margin-left: 15px;
+ }
+
+.block-4 {
+    float: left;
+    width: 25%;
+}
+
+.block-4 img {
+    border:1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+ }
+
+ .block-4 figcaption {
+    margin-left: 35px;
+ }
+
